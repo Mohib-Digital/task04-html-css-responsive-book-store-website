@@ -3,7 +3,9 @@
   margin: 0;
   color: #000;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  box-sizing: border-box;
 }
+
 figure {
   display: flex;
   justify-content: center;
@@ -12,14 +14,19 @@ figure {
 
 figure img {
   width: 200px;
+  margin-top: 100px;
 }
 
 /* navbar */
 nav {
   display: flex;
   justify-content: space-evenly;
-  position: sticky;
+  position: fixed; /* Changed to fixed */
   top: 0;
+  width: 100%;
+  background-color: #b6b6b6; /* Added background color */
+  z-index: 1000; /* Ensure navbar stays on top */
+  padding: 10px 0; /* Added padding for better appearance */
 }
 
 nav a {
@@ -31,11 +38,15 @@ nav a {
 .home {
   display: flex;
   justify-content: space-evenly;
-  margin-right: 50px;
+  flex-wrap: wrap;
+  margin-left: 50px;
 }
 
 .home div {
-  padding-top: 120px;
+  padding-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .home img {
@@ -47,6 +58,8 @@ nav a {
 .home h2 {
   font-size: 40px;
   font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .home input {
@@ -60,11 +73,12 @@ nav a {
 section {
   text-align: center;
   padding-bottom: 30px;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 
 section p {
   margin-top: 30px;
+  line-height: 0;
 }
 
 /* for mobile apps */
@@ -78,10 +92,11 @@ section p {
   }
   .home div {
     padding: 70px;
+    text-align: center;
   }
   .home img {
-    width: 180;
-    margin-left: 80px;
+    width: 180px;
+    margin-left: 0; /* Removed extra margin */
     margin-top: 10px;
   }
   .home h2 {
@@ -104,23 +119,18 @@ section p {
     font-size: smaller;
     padding-top: 10px;
   }
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* General media queries for better responsiveness */
+@media (max-width: 685px) {
+  .home {
+    justify-content: center; /* Center align content on smaller screens */
+    margin-right: 0; /* Remove extra margin */
+  }
+  .home img {
+    margin-left: 0; /* Remove extra margin */
+  }
+  .home div {
+    padding-top: 20px; /* Adjust padding for better alignment */
+  }
+}
