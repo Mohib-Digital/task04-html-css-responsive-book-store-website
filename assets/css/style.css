@@ -320,6 +320,7 @@ footer {
   margin-top: 60px;
   display: flex;
   justify-content: space-evenly;
+  background-color: ;
 }
 
 footer p {
@@ -338,140 +339,7 @@ footer div a {
 footer img {
   width: 20%;
   height: 150px;
-  margin-top: -20px;
+  margin-top: -5px;
+  border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
