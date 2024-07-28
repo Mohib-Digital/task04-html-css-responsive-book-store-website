@@ -6,179 +6,150 @@
   <title>Book Store</title>
   <link rel="stylesheet" href="./assets/css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    nav .home {
+      border-bottom: 3px solid aquamarine;
+      color: #FFD700;
+    }
+  </style>
 </head>
 <body>
-  <figure><img src="./assets/img/logo.png" alt=""></figure>
+  <!-- logo -->
+  <figure><img src="./assets/img/logo.png" alt="Logo"></figure>
 
   <!-- navbar -->
-   <nav>
-    <a href="#">Home</a>
-    <a href="">Best Sellers</a>
-    <a href="">Books</a>
+  <nav>
+    <a href="#" class="home">Home</a>
+    <a href="#">Best Sellers</a>
+    <a href="#">Books</a>
   </nav>
 
-    <!-- home -->
-     <div class="home">
-      <div>
-        <h2>Find the books <br>you are looking <br> for to read</h2>
-        <input type="search" name="search" id="search">
+  <!-- home -->
+  <div class="home">
+    <div>
+      <h2>Find the books <br>you are looking <br> for to read</h2>
+      <input type="search" name="search" id="search">
+    </div>
+    <img src="./assets/img/book3.png" alt="img">
+  </div>
+
+  <!-- Section -->
+  <section>
+    <h3>Mohib-Digital Book Store</h3>
+    <p>Where books & people meet!</p>
+    <p>Bringing Books and Accessories to your doorstep.</p>
+    <p>Explore our Online Store and Order your Favorite Novels, Souvenirs and much more!</p>
+  </section>
+
+  <!-- best sellers -->
+  <div class="best-selling">
+    <h3 id="Best-Sellers">Best Sellers</h3>
+    <div class="group-cards">
+      <div class="Books">
+        <img src="./assets/img/book1.jpg" alt="Book 1">
+        <h6><b>ALCHEMIST</b><br>Paulo Coelho</h6>
+        <button>Buy Now</button>
       </div>
-      <img src="./assets/img/book3.png" alt="img">
-     </div>
+      <div class="Books">
+        <img src="./assets/img/book2.jpg" class="nelson" alt="Book 2">
+        <h6><b>LONG WALK TO FREEDOM</b><br>Nelson Mandela</h6>
+        <button>Buy Now</button>
+      </div>
+      <div class="Books">
+        <img src="./assets/img/book4.jpg" class="wisdom" alt="Book 4">
+        <h6><b>DAILY WISDOM</b><br>Abdur Reheem Kidwai</h6>
+        <button>Buy Now</button>
+      </div>
+      <div class="Books">
+        <img src="./assets/img/book1.jpg" alt="Book 1">
+        <h6><b>ALCHEMIST</b><br>Paulo Coelho</h6>
+        <button>Buy Now</button>
+      </div>
+      <div class="Books">
+        <img src="./assets/img/book2.jpg" class="nelson" alt="Book 2">
+        <h6><b>LONG WALK TO FREEDOM</b><br>Nelson Mandela</h6>
+        <button>Buy Now</button>
+      </div>
+      <div class="Books">
+        <img src="./assets/img/book4.jpg" class="wisdom" alt="Book 4">
+        <h6><b>DAILY WISDOM</b><br>Abdur Reheem Kidwai</h6>
+        <button>Buy Now</button>
+      </div>
+    </div>
+  </div>
 
-     <!-- Section -->
-      <section>
-        <h3>Mohib-Digital Book Store</h3>
-        <p>Where books & people meet!</p>
-        <p>Bringing Books and Accessories to your doorstrap.</p>
-        <p>Explore our Online Store and Order your Favoriate Novels, Souvenirs and much more!</p>
-      </section>
-
-      <!-- best sellers -->
-      <div class="best-selling">
-        <h3 id="Best-Sellers">Best Sellers</h3>
-        <div class="group-cards">
-          <div class="Books">
-            <img src="./assets/img/book1.jpg" alt="">
-            <h6>Alchemist <br>
-            Paulo Coohlo
-            </h6>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="Books">
-            <img src="./assets/img/book2.jpg" alt="">
-            <h6>Long Walk to Freedom <br>
-            Nelson Mandela
-            </h6>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="Books">
-            <img src="./assets/img/book4.jpg" alt="">
-            <h6>Daily Wisdom <br>
-            Abdur Reheem Kidwai
-            </h6>
-            <button>Buy Now</button>
-          </div>
-        </div>
-
-        <div class="group-cards">
-          <div class="Books">
-            <img src="./assets/img/book1.jpg" alt="">
-            <h6>Alchemist <br>
-            Paulo Coohlo
-            </h6>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="Books">
-            <img src="./assets/img/book2.jpg" alt="">
-            <h6> Long Walk to Freedom <br>
-            Nelson Mandela
-            </h6>
-            <button>Buy Now</button>
-          </div>
-
-          <div class="Books">
-            <img src="./assets/img/book4.jpg" alt="">
-            <h6>Daily Wisdom <br>
-            Abdur Reheem Kidwai
-            </h6>
-            <button>Buy Now</button>
-          </div>
+  <!-- books collection -->
+  <div class="books-collection">
+    <h3 id="Books">Books</h3>
+    <div class="card-group">
+      <div class="card">
+        <img src="./assets/img/book5.jpg" class="card-img-top" alt="Book 5">
+        <div class="card-body">
+          <h5 class="card-title">The Singing Trees <br>Boo Walker</h5>
+          <button>Buy Now</button>
         </div>
       </div>
- 
-      <!-- books collection -->
-       <div class="books-collection">
-        <h3 id="Books">Books</h3>
-        <div class="card-group">
-          <div class="card">
-            <img src="./assets/img/book5.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">The Singing Trees <br>
-                Boo Walker
-              </h5>
-              <button>Buy Now</button>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./assets/img/book6.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">A Love Letter to Black Families <br>
-                Karida L. Brown & Charly Palmer
-              </h5>
-              <button>Buy Now</button>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./assets/img/book7.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Reprisal <br>
-               Cliff Roberts
-              </h5>
-              <button>Buy Now</button>
-            </div>
-          </div>
+      <div class="card">
+        <img src="./assets/img/book6.jpg" class="card-img-top" alt="Book 6">
+        <div class="card-body">
+          <h5 class="card-title">A Love Letter to Black Families <br>Karida L. Brown & Charly Palmer</h5>
+          <button>Buy Now</button>
         </div>
-
-        <div class="card-group">
-          <div class="card">
-            <img src="./assets/img/book8.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Humanity <br>
-                Jonathan Glover
-              </h5>
-              <button>Buy Now</button>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./assets/img/book9.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Every Day, I'll Love You <br>
-                Freya Winters
-              </h5>
-              <button>Buy Now</button>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./assets/img/book10.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Peace by Piece <br>
-              Cheryl Fuller
-              </h5>
-              <button>Buy Now</button>
-            </div>
-          </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/book7.jpg" class="card-img-top" alt="Book 7">
+        <div class="card-body">
+          <h5 class="card-title">Reprisal <br>Cliff Roberts</h5>
+          <button>Buy Now</button>
         </div>
-       </div>
-
-      
-       <!-- connect -->
-       <section class="connect">
-        <h3>Connect With Us</h3>
-        <a href=""><img src="./assets/img/icons8-email-50.png" alt=""></a>
-        <a href=""><img src="./assets/img/icons8-insta-50.png" alt=""></a>
-        <a href=""><img src="./assets/img/icons8-linkedin-80.png" alt=""></a>
-       </section>
-
-       <!-- footer -->
-       <footer>
-      <div>
-        <p>Main Menu</p>
-        <a href="">Home</a>
-        <a href="#Best-Sellers"> Best Sellers</a>
-        <a href="#Books">Books</a>
       </div>
-      <div class="location">
-        <p>About Us</p>
-        <p>Bara Bazar P.O Bara Distt, Khyber <br>KPK Pakistan</p>
-        <p>03028847209</p>
+      <div class="card">
+        <img src="./assets/img/book8.jpg" class="card-img-top" alt="Book 8">
+        <div class="card-body">
+          <h5 class="card-title">Humanity <br>Jonathan Glover</h5>
+          <button>Buy Now</button>
+        </div>
       </div>
-      <img src="./assets/img/pexels-photo-8613089.jpg" alt="Footer-img">
-      </footer>
+      <div class="card">
+        <img src="./assets/img/book9.jpg" class="card-img-top" alt="Book 9">
+        <div class="card-body">
+          <h5 class="card-title">Every Day, I'll Love You <br>Freya Winters</h5>
+          <button>Buy Now</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./assets/img/book10.jpg" class="card-img-top" alt="Book 10">
+        <div class="card-body">
+          <h5 class="card-title">Peace by Piece <br>Cheryl Fuller</h5>
+          <button>Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
+  <!-- connect -->
+  <section class="connect">
+    <h3>Connect With Us</h3>
+    <a href="#"><img src="./assets/img/icons8-email-50.png" alt="Email"></a>
+    <a href="#"><img src="./assets/img/icons8-insta-50.png" alt="Instagram"></a>
+    <a href="#"><img src="./assets/img/icons8-linkedin-80.png" alt="LinkedIn"></a>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <div>
+      <p>Main Menu</p>
+      <a href="#">Home</a>
+      <a href="#Best-Sellers"> Best Sellers</a>
+      <a href="#Books">Books</a>
+    </div>
+    <div class="location">
+      <p>About Us</p>
+      <p>Bara Bazar P.O Bara Distt, Khyber <br>KPK Pakistan</p>
+      <p>03028847209</p>
+    </div>
+    <img src="./assets/img/pexels-photo-8613089.jpg" alt="Footer-img">
+  </footer>
 
 </body>
 </html>
