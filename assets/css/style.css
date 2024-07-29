@@ -95,7 +95,7 @@ section {
 
 section p {
   margin-top: 30px;
-  line-height: 0;
+  line-height: 1.5; /* Adjusted line-height for better readability */
 }
 
 /* for mobile apps */
@@ -155,7 +155,6 @@ section p {
   margin-bottom: 15px; /* Space between image and text */
 }
 
-
 .nelson {
   height: 396px !important;
 }
@@ -182,9 +181,8 @@ section p {
   background-color: #555;
 }
 
-
 /* Footer */
-footer {
+footer {                              
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
@@ -203,9 +201,9 @@ footer div a {
 }
 
 footer img {
-  width: 200px;
+  width: 350px;
   height: auto;
-  border: none;
+  border: 1px solid #fff;
   border-radius: 10px;
 }
 
